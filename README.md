@@ -1,47 +1,54 @@
-# Astro Starter Kit: Basics
+# Thyagaraja M — Portfolio
 
-```sh
-npm create astro@latest -- --template basics
-```
+> Full-Stack Developer | Software Architect | 3D & AI
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+A personal portfolio built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com), showcasing projects, skills, and professional experience.
 
-## 🚀 Project Structure
+## 🚀 Tech Stack
 
-Inside of your Astro project, you'll see the following folders and files:
+| Technology | Purpose |
+|------------|---------|
+| **Astro 6** | Static site framework |
+| **Tailwind CSS 4** | Utility-first styling |
+| **TypeScript** | Type-safe code |
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+## ✨ Features
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+- **Dark mode** — Toggleable with system preference detection
+- **Scroll animations** — Fade-in sections on scroll via Intersection Observer
+- **SEO optimized** — Open Graph, Twitter cards, meta tags
+- **Responsive** — Mobile-first layout with Tailwind breakpoints
+- **Fast** — 100% static output via Astro build
 
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+| Command | Action |
+|---------|--------|
+| `npm install` | Install dependencies |
+| `npm run dev` | Start dev server at `localhost:4321` |
+| `npm run build` | Build to `./dist/` |
+| `npm run preview` | Preview production build |
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 📁 Project Structure
 
-## 👀 Want to learn more?
+```
+src/
+├── components/     # Reusable UI components
+│   ├── Header.astro
+│   ├── ProfileSummary.astro
+│   ├── Projects.astro
+│   ├── Skills.astro
+│   ├── Experience.astro
+│   └── FooterSection.astro
+├── layouts/        # Page layouts
+│   └── Layout.astro
+├── pages/          # Route pages
+│   └── index.astro
+└── styles/         # Global styles
+    └── global.css
+```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-# testing-cv
+## 🌐 Links
+
+- **AI Home Decorator** — [aihomedecorator.com](https://aihomedecorator.com)
+- **Home Design English** — [homedesignenglish.com](https://homedesignenglish.com)
