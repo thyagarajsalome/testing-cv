@@ -1,6 +1,6 @@
 # Thyagaraja M — Portfolio
 
-> Full-Stack Developer | Software Architect | 3D & AI
+> Product Developer | Software Architect | 3D & AI
 
 A personal portfolio built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com), showcasing projects, skills, and professional experience.
 
